@@ -8,7 +8,7 @@ function auto_formater($date, $val, $pad, $length)
     return $implode . $str_pad;
 }
 
-echo auto_formater(date('Y-m-d'), 1, 0, 3);
+echo auto_formater(date('Y-m-d'), 1, 0, 5);
 
 /**
  * example : 
@@ -16,6 +16,6 @@ echo auto_formater(date('Y-m-d'), 1, 0, 3);
  *          -> 1 (ini value hasil count dari colom pada table)
  *          -> 0 (ini yang digunakan dan akan diulang sebanyak 3 kali (sesuai dengan panjang yang diinput))
  * 
- * Result : 202108160001
+ * Result : 20210816000001 
  *          
  */
