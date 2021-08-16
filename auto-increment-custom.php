@@ -12,7 +12,7 @@ echo auto_formater(date('Y-m-d'), 1, 0, 3);
 
 /**
  * example : 
- *          -> 20210816 (ini diambil dari tanngal)
+ *          -> 20210816 (ini diambil dari tanggal)
  *          -> 1 (ini value hasil count dari colom pada table)
  *          -> 0 (ini yang digunakan dan akan diulang sebanyak 3 kali (sesuai dengan panjang yang diinput))
  * 
