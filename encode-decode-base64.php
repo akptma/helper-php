@@ -5,7 +5,7 @@
  * $length = digunakan untuk melakukan looping (encode dan decode nilai lengthnya harus sama)
  * Examp : 
  *       -> encode('test', 5) -> value (test) akan di encode sebanyak (10) kali 
- *       -> decode('VmpKMFYyRXhXWGxXYmxKV1lUQndVbFpyVWtKUFVUMDk', 5) -> value  akan di decode sebanyak (10) kali 
+ *       -> decode('VmpKMFYyRXhXWGxXYmxKV1lUQndVbFpyVWtKUFVUMDk', 5) -> value  akan di decode sebanyak (5) kali 
  * 
  */
 
