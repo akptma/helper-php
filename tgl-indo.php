@@ -6,7 +6,7 @@ function tgl_indo($val)
     $tgl     = $explode[0];
     $bulan   = $explode[1];
     $tahun   = $explode[2];
-    switch (strtolower($bulan)) {
+    switch ($bulan) {
         case '01':
             return ($tgl . ' ' .  'Januari' . ' ' .  $tahun);
             break;
